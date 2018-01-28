@@ -8,7 +8,7 @@ html,body{
   top: 0;
 }
 
-.navbar-default .navbar-nav > li > a:hover{
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover{
   color: rgb(249, 0, 85);
 }
 
@@ -21,21 +21,29 @@ html,body{
 }
 
 .navbar-default .navbar-brand{
+  transition: 0.3s;
   padding-top: 7.5px;
 }
 
-.navbar-default .navbar-brand:hover{
+.navbar-default .navbar-nav>.active>a:hover{
   color: rgb(249, 0, 85);
 }
 
-body > main > div > div:nth-child(1) > h1{
+h1, h2, h3, h4, h5, h6{
   font-family: spartan;
-  font-size: 60px;
+}
+
+body > main > div > div:nth-child(1) > h1{
+  font-size: 72px;
 }
 
 #sgthumb{
   max-width: 35px;
   display: inline;
+}
+
+#level39{
+  max-width: 70%;
 }
 
 @font-face {

@@ -1,11 +1,25 @@
 html,body{
   text-align: center;
+  vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: spartan;
+}
+
+body > main > div > div:nth-child(1) > h1{
+  font-size: 72px;
+}
+
+.spartan-pink{
+  color: rgb(249, 0, 85);
 }
 
 .navbar-default{
   font-family: spartan;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover{
@@ -29,12 +43,8 @@ html,body{
   color: rgb(249, 0, 85);
 }
 
-h1, h2, h3, h4, h5, h6{
-  font-family: spartan;
-}
-
-body > main > div > div:nth-child(1) > h1{
-  font-size: 72px;
+.message{
+  margin-top: 5%;
 }
 
 #sgthumb{

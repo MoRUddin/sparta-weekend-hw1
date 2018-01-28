@@ -1,14 +1,44 @@
-.navbar-default .navbar-brand:hover{
-  color: rgb(249, 0, 85);
+html,body{
+  text-align: center;
+}
+
+.navbar-default{
+  font-family: spartan;
+  position: sticky;
+  top: 0;
 }
 
 .navbar-default .navbar-nav > li > a:hover{
   color: rgb(249, 0, 85);
 }
 
-.navbar-default{
-  background: rgb(42, 26, 62);
+.navbar-default .navbar-toggle{
+  transition: 0.5s;
+}
+
+.navbar-default .navbar-toggle:hover{
+  box-shadow: inset 0px 0px 0px 1px rgb(249, 0, 85);
+}
+
+.navbar-default .navbar-brand{
+  padding-top: 7.5px;
+}
+
+.navbar-default .navbar-brand:hover{
+  color: rgb(249, 0, 85);
+}
+
+body > main > div > div:nth-child(1) > h1{
   font-family: spartan;
-  position: sticky;
-  top: 0;
+  font-size: 60px;
+}
+
+#sgthumb{
+  max-width: 35px;
+  display: inline;
+}
+
+@font-face {
+  font-family: "spartan";
+  src: url(../fonts/DDCHardware_OTF/DDCHardware-Regular.otf);
 }

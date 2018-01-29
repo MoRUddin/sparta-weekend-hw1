@@ -43,8 +43,9 @@ body > main > div > div:nth-child(1) > h1{
   color: rgb(249, 0, 85);
 }
 
-.message{
-  margin-top: 5%;
+.thumb{
+  height: 200px;
+  width: 200px;
 }
 
 #sgthumb{

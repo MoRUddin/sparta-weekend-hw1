@@ -15,11 +15,16 @@ body > main > div > div:nth-child(1) > h1{
   color: rgb(249, 0, 85);
 }
 
+.jumbotron{
+  margin-top: 5%;
+}
+
 .navbar-default{
   font-family: spartan;
   position: sticky;
   top: 0;
   z-index: 1;
+  margin-bottom: 0;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover{
@@ -58,7 +63,7 @@ article{
   width: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  bottom: 0;
 }
 
 .fa:hover {

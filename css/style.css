@@ -1,0 +1,85 @@
+html,body{
+  text-align: center;
+  vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: spartan;
+}
+
+body > main > div > div:nth-child(1) > h1{
+  font-size: 72px;
+}
+
+.spartan-pink{
+  color: rgb(249, 0, 85);
+}
+
+.jumbotron{
+  margin-top: 5%;
+}
+
+.navbar-default{
+  font-family: spartan;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover{
+  color: rgb(249, 0, 85);
+}
+
+.navbar-default .navbar-toggle{
+  transition: 0.5s;
+}
+
+.navbar-default .navbar-toggle:hover{
+  box-shadow: inset 0px 0px 0px 1px rgb(249, 0, 85);
+}
+
+.navbar-default .navbar-brand{
+  transition: 0.3s;
+  padding-top: 7.5px;
+}
+
+.navbar-default .navbar-nav>.active>a:hover{
+  color: rgb(249, 0, 85);
+}
+
+article{
+  padding-top: 3%;
+}
+
+.thumb{
+  height: 300px;
+  width: 300px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  bottom: 0;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+#sgthumb{
+  max-width: 35px;
+  display: inline;
+}
+
+#level39{
+  max-width: 70%;
+}
+
+@font-face {
+  font-family: "spartan";
+  src: url(../fonts/DDCHardware_OTF/DDCHardware-Regular.otf);
+}

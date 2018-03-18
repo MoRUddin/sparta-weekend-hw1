@@ -1,5 +1,5 @@
 # sparta-weekend-hw1
-Min. 3 page website incorporating all learned material so far including:
+Min. 3 page website incorporating all learned material so far. This project also allowed me to practice proper git workflow, creating a branch for each feature.
 
 
 # The Task
@@ -16,7 +16,7 @@ It can be on a topic of your choosing, but must include:
 	* Videos (NOT embedding from YouTube, Vimeo etc)
 	* Carousel
 	* Pagination OR Modal
-	* Profile section (photo, name, job title, descriptin etc.)
+	* Profile section (photo, name, job title, description etc.)
 	* Footer with common links (eg. Sitemap)
 
   ## The website

@@ -11,6 +11,10 @@ body > main > div > div:nth-child(1) > h1{
   font-size: 72px;
 }
 
+.table>tbody>tr>td{
+  border: none;
+}
+
 .spartan-pink{
   color: rgb(249, 0, 85);
 }
@@ -46,6 +50,10 @@ body > main > div > div:nth-child(1) > h1{
 
 .navbar-default .navbar-nav>.active>a:hover{
   color: rgb(249, 0, 85);
+}
+
+a.fa.fa-twitter,a.fa.fa-facebook{
+  text-decoration: none;
 }
 
 article{
